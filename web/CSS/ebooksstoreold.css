@@ -1,0 +1,14 @@
+/*
+stylesheet file for ebooks store
+*/
+/* 
+    Created on : Mar 17, 2018, 1:59:03 PM
+    Author     : tudor
+*/
+
+.thc{
+    color: darkorange;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lawngreen;
+}
