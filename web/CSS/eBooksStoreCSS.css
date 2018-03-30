@@ -149,7 +149,7 @@ td.tdl td {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    border-radius: 3em;
+    border-radius: 1em;
 }
 
 .ebooksstorebutton:hover {
@@ -162,7 +162,7 @@ td.tdl td {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    border-radius: 3em;
+    border-radius: 1em;
 }
 input[type=text] {
     width: 50px;
