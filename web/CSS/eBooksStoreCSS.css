@@ -40,7 +40,7 @@ table{
     border-style: solid;
     border-color: darkgrey;
 }
-.tablecenterdwithborder {
+.tablecenteredwithborder {
     border-width: 1px;
     border-spacing: 0 0px;
     border-radius: 0.5em;
@@ -55,6 +55,22 @@ table{
     border-spacing: 0 0px;
     font-size: 12px;
 }
+
+.tableusers {
+    font-size: 12px;
+    width: 50%;
+    border-spacing: 0 0px;
+    border-radius: 0.2em;
+    border-width: 1px;
+    border-spacing: 0 0px;
+    border-style: solid;
+    border-color: darkgrey;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 .thc{
     text-align: center;
     vertical-align: top;
@@ -62,6 +78,18 @@ table{
     background-color: lightgrey;
     color: black;
 }
+
+.thcusers {
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid background;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
 td{
     text-align: left;
     vertical-align: top;
@@ -74,6 +102,15 @@ td.tdl td {
     text-align: center;
     vertical-align: middle;
     color: black;
+}
+
+.tdcusers {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    border: 1px solid background;
+    border-collapse: collapse;
+    padding: 6px;
 }
 
 .tdcred{
@@ -102,7 +139,7 @@ td.tdl td {
     background: forestgreen;
     color:wheat;
 }
-.ebookstorebutton {
+.ebooksstorebutton {
     background-color: whitesmoke; 
     border: darkgray;
     border-style: solid;
@@ -114,6 +151,7 @@ td.tdl td {
     font-size: 12px;
     border-radius: 3em;
 }
+
 .ebooksstorebutton:hover {
     background-color: darkgray; 
     border: whitesmoke;
@@ -135,12 +173,12 @@ input[type=text] {
 
 .inputlargeonyellow[type=text] {
     width: 120px;
-    background-color: yellow;
+    background-color: antiquewhite;
 }
 
 .inputlargeonyellowpassword[type=password] {
     width: 120px;
-    background-color: yellow;
+    background-color: antiquewhite;
 }
 
 input[type=datetime] {
@@ -154,6 +192,33 @@ input[type=datetime] {
     width: 120px;
     background: greenyellow;    
 }
+
+ul.horizontallist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #818181 0%,#818181 50%,#777775 51%,#777775 100%);
+}
+
+li.horizontallist {
+    float: left;
+    border-right: 1px solid dimgrey;
+}
+
+li.horizontallist a.horizontallist {
+    display: block;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.horizontallist a.horizontallist:hover {
+    background: linear-gradient(to bottom, #8e8e8e 0%,#8e8e8e 50%,#858583 51%,#858583 100%);
+}
+
 th{
     vertical-align: bottom;
     height: fit-content;
@@ -234,3 +299,8 @@ select{
    line-height: 1;
    height: 23px;
    }
+   
+.checkbox {
+    border: 1px solid lightslategrey;
+    border-radius: 1px;
+}
